@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="call_us"> התקשרו אלינו<a href="035400272">+91 1234567890</a></string>
+    <string name="email_us">המייל שלנו <a href="tahelnadav@gmail.com">travely@gmail.com</a></string>
+    <string name="begindate"> תאריך יציאה</string>
+    <string name="backdate"> תאריך חזרה</string>
+</resources>

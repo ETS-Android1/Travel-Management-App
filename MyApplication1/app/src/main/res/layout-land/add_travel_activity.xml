@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <DatePicker
+            android:id="@+id/startDate"
+            android:layout_width="347dp"
+            android:layout_height="71dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="264dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:background="#F4DFDF"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:fadeScrollbars="true" />
+
+        <DatePicker
+            android:id="@+id/finishdate"
+            android:layout_width="347dp"
+            android:layout_height="71dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="363dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:background="#F4DFDF"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:fadeScrollbars="true" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/companyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="328dp"
+            android:layout_marginLeft="328dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginBottom="137dp"
+            android:ems="10"
+            android:hint="שם החברה"
+            android:textColor="@color/material_on_background_disabled" />
+
+        <EditText
+            android:id="@+id/status"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="604dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginRight="42dp"
+            android:ems="10"
+            android:text="סטטוס דרישה"
+            android:textColor="@color/material_on_background_disabled" />
+
+        <EditText
+            android:id="@+id/numOfTravelers"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="194dp"
+            android:ems="10"
+            android:hint="מספר נוסעים"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/mailAddress"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="548dp"
+            android:ems="10"
+            android:hint="מייל"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/destination"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_marginBottom="251dp"
+            android:ems="10"
+            android:hint="כתובת יעד/ים"
+            android:textColor="@color/material_on_background_disabled" />
+
+        <EditText
+            android:id="@+id/sourceAddress"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="462dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginBottom="304dp"
+            android:ems="10"
+            android:hint="כתובת איסוף וחזרה"
+            android:textColor="@color/material_on_background_disabled" />
+
+        <EditText
+
+            android:id="@+id/phone"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="500dp"
+            android:ems="10"
+            android:hint="טלפון ליצירת קשר          "
+            android:inputType="phone" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name"
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="81dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="38dp"
+            android:hint="שם מלא" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="248dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginRight="41dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="תאריך יציאה" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="339dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="תאריך חזרה" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="311dp"
+            android:layout_height="47dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="16dp"
+
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:text="יש למלא את הפרטים"
+            android:textSize="25dp" />
+
+        <Button
+
+
+            android:id="@+id/button2"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="356dp"
+            android:layout_height="45dp"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/roundbutten"
+            android:backgroundTint="@color/red"
+            android:hint="ביצוע הזמנה"
+            android:onClick="submit"
+            android:textSize="15dp"
+            app:cornerRadius="28dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
